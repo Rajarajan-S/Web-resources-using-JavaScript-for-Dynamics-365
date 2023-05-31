@@ -11,7 +11,7 @@ function NavigateForm(type,formcontext){
 	var avlForms = formcontext.ui.formSelector.items.get();
 	
 	
-	// Checking the case type ahainst the form name
+	// Checking the case type against the form name
 	if(curForm.getLabel().toLowerCase() != type.toLowerCase()){   
 		for(var i in avlForms){
 			var form = avlForms[i];
